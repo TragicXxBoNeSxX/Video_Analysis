@@ -1,6 +1,6 @@
 # Video Analysis/Face Recognition Script
 
-This code was tested in Windows 10 with Python 3.6, 3.7.
+This code was tested in Windows 10 and 11 with Python 3.6-3.11.
 
 <b>Required Windows Programs:</b>
 - CMake (For certain modules to install correctly. Mainly dlib.)
@@ -13,7 +13,7 @@ This code was tested in Windows 10 with Python 3.6, 3.7.
 - dlib (alternate install) (First run: python -m pip install cmake , Then Run: python -m pip install dlib)
 - imutils (python -m pip install imutils)
 - pillow/PIL (python -m pip install pillow)
-- pyautogui (python -m pip install pyautogui) # For errors in installation try (python -m pip install win32gui) first.
+- pyautogui (python -m pip install pyautogui) # For errors in installation try (python -m pip install win32gui (now pywin32)) first.
 - numpy (python -m pip install numpy)
 
 <b>All you need for the file structure is:</b>
